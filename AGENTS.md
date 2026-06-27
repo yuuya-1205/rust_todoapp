@@ -80,7 +80,7 @@ cargo clippy  # Lint
 
 - `docs/requirements.md` … 何を作るか（要件）
 - `docs/architectured.md` … モジュール構成・設計
-- `docs/cording-rules.md` … コーディングルール
+- `docs/coding-rules.md` … コーディングルール
 - `docs/review-checklist.md` … レビュー観点
 - `src/model/model.md` … モデルファイルの記述規約
 - `src/presentation/presentation.md` … プレゼンテーション層の説明
