@@ -10,6 +10,9 @@
 /// # Examples
 ///
 /// ```
+/// // doctest は別クレートとして実行されるため、公開API を import する。
+/// use todoapp::model::todo::Todo;
+///
 /// let todo = Todo {
 ///     title: String::from("タイトル"),
 ///     content: String::from("本文"),
