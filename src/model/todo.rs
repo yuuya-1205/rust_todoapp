@@ -10,12 +10,16 @@
 /// # Examples
 ///
 /// ```
+/// // doctest は別クレートとして実行されるため、公開API を import する。
+/// use todoapp::model::todo::Todo;
+///
 /// let todo = Todo {
 ///     title: String::from("タイトル"),
 ///     content: String::from("本文"),
 /// };
 /// assert_eq!(todo.title, "タイトル");
 /// ```
+#[derive(Debug, PartialEq)]
 pub struct Todo {
     /// タスクのタイトル
     pub title: String,
