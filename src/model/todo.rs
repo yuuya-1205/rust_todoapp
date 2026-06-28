@@ -16,6 +16,7 @@
 /// };
 /// assert_eq!(todo.title, "タイトル");
 /// ```
+#[derive(Debug, PartialEq)]
 pub struct Todo {
     /// タスクのタイトル
     pub title: String,
